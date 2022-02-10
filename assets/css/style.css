@@ -1,7 +1,8 @@
+/*-----Global Values-----*/
 :root {
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
+    --primary-color: #38b4fc;
+    --secondary-color: #02766c;
+    --tertiary-color: #3945b2;
 }
 
 * {
@@ -10,13 +11,15 @@
     box-sizing: border-box;
 }
 
+/*-----Body-----*/
+
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: var(--tertiary-color); 
     font-family:Helvetica Arial, sans serif;
 }
 
-/*----apply styles to the <header>---- */
+/*-----Header-----*/
+
 header {
     padding: 20px 35px;
     background-color: var(--tertiary-color);
@@ -73,7 +76,8 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-/* apply styles to the <footer> */
+/*-----Footer-----*/
+
 footer {
     background: var(--primary-color);
     width: 100%;
@@ -102,7 +106,7 @@ section {
     padding: 60px;
 }
 
-/* Hero Style Start */
+/*-----Hero-----*/
 .hero {
     background-image: url("../images/hero-bg.jpeg");
     background-size: cover;
@@ -114,7 +118,6 @@ section {
     background-attachment: fixed;
     background-position: 80%;
 }
-/* Hero Style End */
 
 .hero-cta {
     width: 35%;
@@ -132,7 +135,7 @@ section {
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-/*----- Hero Form Style Start -----*/
+/*-----Hero Form-----*/
 .hero-form{
     color: var(--secondary-color);
     background-color: rgba(252,225,56,0.8);
@@ -185,8 +188,6 @@ section {
     margin: 10px;
     line-height: 1.6;
 }
-
-
 
 .checkbox-wrapper label::before, .radio-wrapper label::before {
     content: "";
@@ -248,7 +249,7 @@ section {
     background-color: var(--tertiary-color);
 }
 
-/* Hero Form Style End */
+/*-----Steps-----*/
 
 .intro p {
     line-height: 1.7;
@@ -280,8 +281,6 @@ section {
 .secondary-border {
     border-color: var(--tertiary-color);
 }
-
-/* ------ Steps ----- */
 
 .step {
     margin: 50px auto;
@@ -382,6 +381,8 @@ section {
     font-size: 17px;
 }
 
+/*-----Contact-----*/
+
 .contact {
    background: var(--secondary-color);
 }
@@ -458,7 +459,6 @@ section {
     color: var(--primary-color);
     background: var(--tertiary-color);
 }
-
 
 .flex-row {
     display: flex;
