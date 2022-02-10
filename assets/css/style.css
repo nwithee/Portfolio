@@ -1,6 +1,6 @@
 /*-----Global Values-----*/
 :root {
-    --primary-color: #38b4fc;
+    --primary-color: #b0d8f0;
     --secondary-color: #02766c;
     --tertiary-color: #3945b2;
 }
@@ -22,14 +22,14 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: var(--tertiary-color);
+    background-color: rgba(136, 121, 121, .90);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpeg");
+    /*background-image: url("../images/hero-bg.jpeg");*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
