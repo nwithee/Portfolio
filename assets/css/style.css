@@ -29,7 +29,6 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    /*background-image: url("../images/hero-bg.jpeg");*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -42,7 +41,7 @@ header h1 {
     font-size: 36px;
     color: var(--primary-color);
     margin: 0;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-shadow: 0 0 10px rgba(0,0,0,0.25);
 }
 
 header a {
@@ -65,8 +64,8 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-size: 1.75vw;
+    text-shadow: 0 0 10px rgba(0,0,0,0.25);
 }
 
 header nav ul li a:hover {
@@ -79,7 +78,7 @@ header nav ul li a:hover {
 /*-----Footer-----*/
 
 footer {
-    background: var(--primary-color);
+    background: rgb(136, 121, 121);
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -88,7 +87,7 @@ footer {
 }
 
 footer h2 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 30px;
     margin: 0;
 }
@@ -99,7 +98,7 @@ footer div {
 }
 
 footer a {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 section {
@@ -119,23 +118,23 @@ section {
     background-position: 80%;
 }
 
-.hero-cta {
-    width: 35%;
-    text-align: right;
+.hero-text {
+    width: 80%;
+    text-align: center;
     margin: 3.5%;
     color: #fff;
-    font-size: 18px;
-    line-height: 1.2;
+    font-size: 24px;
+    line-height: 1.5;
 }
 
-.hero-cta h2 {
+.hero-text h2 {
     font-style: italic;
     font-size: 55px;
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-/*-----Hero Form-----*/
+/*-----Hero Form-----
 .hero-form{
     color: var(--secondary-color);
     background-color: rgba(252,225,56,0.8);
@@ -248,37 +247,38 @@ section {
 .hero-form button:hover {
     background-color: var(--tertiary-color);
 }
+*/
 
 /*-----Who Am I-----*/
 
-.intro p {
-    line-height: 1.7;
-    color: var(--tertiary-color);
-    width: 100%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 .my-info {
-    flex: 2 70%;
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 50px auto;
-    padding-bottom: 50px;
+    margin: 25px auto;
+    padding-bottom: 5px;
     width: 80%;
     display: flex;
     justify-content: space-between;
 }
 
 .my-img {
-    flex: 1 12%;
-    margin-right: 20px;
+    flex: 1;
 }
 
 .my-img img {
-    max-width: 100%;
+    max-width: 50%;
+    border-radius: 15px;
+}
+
+.me-text {
+    line-height: 1.7;
+    color: var(--tertiary-color);
+    width: 50%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 /*-----Steps-----*/
@@ -300,6 +300,7 @@ section {
 
 .primary-border {
     border-color: var(--primary-color);
+    border-bottom: solid;
 }
 
 .secondary-border {
