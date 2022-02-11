@@ -249,16 +249,40 @@ section {
     background-color: var(--tertiary-color);
 }
 
-/*-----Steps-----*/
+/*-----Who Am I-----*/
 
 .intro p {
     line-height: 1.7;
     color: var(--tertiary-color);
-    width: 80%;
+    width: 100%;
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
 }
+
+.my-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.my-img img {
+    max-width: 100%;
+}
+
+/*-----Steps-----*/
+
 
 .steps {
     background: var(--primary-color);
@@ -267,7 +291,7 @@ section {
 .section-title {
     font-size: 48px;
     color: var(--secondary-color);
-    border-bottom: 3px solid;
+    /*border-bottom: 3px solid;*/
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
