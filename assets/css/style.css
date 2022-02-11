@@ -18,6 +18,22 @@ body {
     font-family:Helvetica Arial, sans serif;
 }
 
+.section-title {
+    font-size: 48px;
+    color: var(--secondary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    display: flex;
+}
+
+.primary-border {
+    border-color: var(--secondary-color);
+}
+
+
 /*-----Header-----*/
 
 header {
@@ -134,122 +150,7 @@ section {
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-/*-----Hero Form-----
-.hero-form{
-    color: var(--secondary-color);
-    background-color: rgba(252,225,56,0.8);
-    padding: 20px;
-    border: solid 3px var(--secondary-color);
-    width: 40%;
-    margin: 3.5%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    border-radius: 15px;
-}
-
-.hero-form h3 {
-    font-size:30px;
-    margin: 0;
-}
-
-.hero-form p {
-    margin: 5px 0 15px 0;
-}
-
-.form-input{
-    border: 1px solid var(--secondary-color);
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: var(--secondary-color);
-    width: 100%;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    background-color: rgba(255,255,255,0.75);
-}
-
-.form-input:focus {
-    background-color: rgba(255,255,255, 1);
-    outline: none;
-}
-
-
-.hero-form label{
-    margin: 0 5px;
-}
-
-.checkbox-wrapper input, .radio-wrapper input {
-    opacity: 0;
-}
-
-.checkbox-wrapper label, .radio-wrapper label {
-    position: relative;
-    left: 10px;
-    margin: 10px;
-    line-height: 1.6;
-}
-
-.checkbox-wrapper label::before, .radio-wrapper label::before {
-    content: "";
-    height: 20px;
-    width: 20px;
-    background: rgba(255,255,255,0.75);
-    border: 1px solid var(--secondary-color);
-    position: absolute;
-    top: -4px;
-    left: -30px;
-}
-
-.radio-wrapper label::before {
-    border-radius: 50%;
-}
-
-.radio-wrapper label::after {
-    content:"";
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: var(--secondary-color);
-    position: absolute;
-    left: -29px;
-    top: -3px;
-    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
-}
-
-.checkbox-wrapper label::after {
-    content: "";
-    height: 6px;
-    width: 14px;
-    border-left: 2px solid var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
-    position: absolute;
-    left: -26px;
-    top: 1px;
-    transform: rotate(-58deg);
-}
-
-.checkbox-wrapper input + label::after, .radio-wrapper input + label::after {
-    content:none;
-}
-
-.checkbox-wrapper input:checked + label::after, .radio-wrapper input:checked + label::after {
-    content:"";
-}
-
-.hero-form button{
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 10px;
-}
-
-.hero-form button:hover {
-    background-color: var(--tertiary-color);
-}
-*/
-
-/*-----Who Am I-----*/
+/*-----Who am I-----*/
 
 .my-info {
     flex: 1;
@@ -281,7 +182,7 @@ section {
     text-align: left;
 }
 
-/*-----Steps-----*/
+/*-----Steps-----
 
 
 .steps {
@@ -291,17 +192,14 @@ section {
 .section-title {
     font-size: 48px;
     color: var(--secondary-color);
-    /*border-bottom: 3px solid;*/
+    border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
 }
 
-.primary-border {
-    border-color: var(--primary-color);
-    border-bottom: solid;
-}
+
 
 .secondary-border {
     border-color: var(--tertiary-color);
@@ -358,9 +256,49 @@ section {
     max-width: 100%;
 }
 
-/*-----Trainer Bio-----*/
+*/
 
-.trainers {
+/*-----My Work-----*/
+
+/*Main App*/
+.main-app {
+    margin: 20px;
+    color: black;
+    flex: 1;    
+}
+
+.main-app img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+.main-app img:hover{
+    opacity: .75;
+}
+
+/*Text Box*/
+.main-app-details {
+    text-align: center;
+    padding: 25px;
+    line-height: 1.3;
+    background: rgb(221, 205, 205);
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.main-app-details h3 {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.main-app-details p {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+/*Other Apps*/
+.apps {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -368,41 +306,38 @@ section {
     justify-content: space-around;
 }
 
-.trainer {
+.app {
     margin: 20px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
+    color: rgb(37, 46, 56);
     flex: 1;
 }
 
-.trainer img {
+.app img {
     width: 100%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
 }
 
-.trainer-bio {
+.app img:hover{
+    opacity: .75;
+}
+
+/*Text Box*/
+.app-details {
     padding: 25px;
     line-height: 1.3;
+    background: rgb(137, 127, 192);
+    margin-top: 15px;
+    border-radius: 10px;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.trainer-bio h3 {
+.app-details h3 {
+    font-style: italic;
     font-size: 28px;
+    text-align: center;
 }
 
-.trainer-bio h4{
-    font-weight: lighter;
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-
-.trainer-bio p {
+.app-details p {
+    margin-top: 10px;
     font-size: 17px;
 }
 
@@ -485,9 +420,7 @@ section {
     background: var(--tertiary-color);
 }
 
-.flex-row {
-    display: flex;
-}
+
 
 /*-----Media queries-----*/
 
