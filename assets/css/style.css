@@ -148,14 +148,10 @@ section {
 /*-----Who am I-----*/
 
 .my-info {
-    flex: 1;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    margin: 25px auto;
-    padding-bottom: 5px;
-    width: 80%;
-    display: flex;
+    align-items: top;
+    margin: 0 100px 0 100px;
     justify-content: space-between;
 }
 
@@ -164,16 +160,16 @@ section {
 }
 
 .my-img img {
-    max-width: 50%;
+    max-width: 100%;
     border-radius: 15px;
 }
 
-.me-text {
+.my-text {
     line-height: 1.7;
     color: var(--tertiary-color);
-    width: 50%;
+    width: 80%;
     font-size: 20px;
-    margin: 0 auto;
+    margin: 0 0 0 20px;
     text-align: left;
 }
 
@@ -188,7 +184,7 @@ section {
     color: black;
     align-items: center;
     text-align: center;
-    width: 100%;    
+    width: 100%; 
 }
 
 .main-app img {
