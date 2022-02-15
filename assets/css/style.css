@@ -265,6 +265,20 @@ section {
 
 .contact {
    background: var(--secondary-color);
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.contact-title {
+    font-size: 48px;
+    color: rgb(87, 87, 87);
+    border-right: 3px solid;
+    padding-bottom: 15px;
+    text-align: left;
+    margin: 0 auto 60px auto;
+    width: 80%;
+    border-color: var(--primary-color);
 }
 
 .contact h2{
