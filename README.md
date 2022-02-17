@@ -1,6 +1,5 @@
 
 # My Portfolio Page
-=======
 
 ## Purpose
 A website that tells the world a little about myself
