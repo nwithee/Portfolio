@@ -266,6 +266,7 @@ section {
 .contact {
    background: var(--secondary-color);
    display: flex;
+   justify-content: space-around;
    flex-wrap: wrap;
    align-items: center;
 }
@@ -288,7 +289,8 @@ section {
 .contact-info {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    color: white;
 }
 
 .contact-info > * {
@@ -297,7 +299,7 @@ section {
 }
 
 .contact-info div {
-    color: white;
+    
 }
 
 .contact-info h3 {
