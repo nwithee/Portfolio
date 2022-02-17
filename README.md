@@ -12,6 +12,6 @@ A website that tells the world a little about myself
 https://nwithee.github.io/Portfolio/
 
 ## Contribution
-Made with ❤️ by [Nevin Withee]
+Made by [Nevin Withee]
 
 
